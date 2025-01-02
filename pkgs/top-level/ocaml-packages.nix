@@ -705,13 +705,22 @@ let
 
     httpun = callPackage ../development/ocaml-modules/httpun { };
 
+    httpun-async = callPackage ../development/ocaml-modules/httpun/async.nix { };
+
     httpun-eio = callPackage ../development/ocaml-modules/httpun/eio.nix { };
+
+    httpun-lwt = callPackage ../development/ocaml-modules/httpun/lwt.nix { };
+
+    httpun-lwt-unix = callPackage ../development/ocaml-modules/httpun/lwt-unix.nix { };
+
+    httpun-mirage = callPackage ../development/ocaml-modules/httpun/mirage.nix { };
 
     httpun-types = callPackage ../development/ocaml-modules/httpun/types.nix { };
 
     httpun-ws = callPackage ../development/ocaml-modules/httpun-ws { };
 
     httpun-ws-lwt = callPackage ../development/ocaml-modules/httpun-ws/lwt.nix { };
+
     hxd = callPackage ../development/ocaml-modules/hxd { };
 
     ### I ###
